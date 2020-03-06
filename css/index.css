@@ -140,7 +140,7 @@ body {
   background-color: darkslategray;
 }
 nav {
-  color: white;
+  color: antiquewhite;
   text-align: right;
   word-spacing: 30px;
   font-size: 20px;
@@ -238,7 +238,7 @@ label {
     display: none;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   img {
     display: none;
   }

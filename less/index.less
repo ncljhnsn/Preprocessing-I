@@ -62,9 +62,12 @@ body {
 	margin-left: 50px;
 	background-color:darkslategray;
 }
+ @textcolor: antiquewhite; 
+
+ @fontfam: 'Courier New', Courier, monospace;
 
 nav {
-	color: white;
+	color: @textcolor;
 	text-align: right;
 	word-spacing: 30px;
 	font-size: 20px;
@@ -84,8 +87,8 @@ section {
 h1 {
 	display: flex;
 	font-size: 30px;
-	color: antiquewhite;
-	font-family: 'Courier New', Courier, monospace;
+	color: @textcolor;
+	font-family: @fontfam;
 	font-weight: bold;
 }
 .aboutme {
@@ -97,24 +100,24 @@ h1 {
 }
 
 p {
-	color: antiquewhite;
+	color: @textcolor;
 	font-size: 15px;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: @fontfam;
 	margin-left: 1px;
 }
 
 h2 {
-	color: antiquewhite;
+	color: @textcolor;
 	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: @fontfam;
 }
 
 h3 {
-	color: antiquewhite;
+	color: @textcolor;
 	font-size: 20px;
 	font-weight: bold;
 	padding: 2px;
-	font-family: 'Courier New', Courier, monospace;
+	font-family: @fontfam;
 }
 
 .exp {
@@ -130,23 +133,23 @@ h3 {
   }
 
   h2, h4 {
-	  color: antiquewhite;
+	  color: @textcolor;
 	  font-size: 20px;
 	  font-weight: bold;
-	  font-family: 'Courier New', Courier, monospace;
+	  font-family: @fontfam;
 	  padding: 5px;
   }
   
 label {
-	color: antiquewhite;
+	color: @textcolor;
 }
 
 .right {
-	color: antiquewhite;
+	color: @textcolor;
 }
 
 #inner {
-	color: antiquewhite;
+	color: @textcolor;
 }
 
 .btn-linkedin {
@@ -165,6 +168,8 @@ label {
 	color: #fff;
   }
 
+ 
+
   @media screen and (max-width: 800px) {
 	img    {
 		   display: none;
@@ -176,7 +181,7 @@ label {
 	}
 	  
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
 	img   {
 		  display: none;
 	  }
